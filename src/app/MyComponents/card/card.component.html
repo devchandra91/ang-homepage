@@ -1,0 +1,17 @@
+<div class="card" style="width: 16rem; margin: 4vh">
+  <img src=" {{ cardData.img }} " class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">
+      <a
+        style="color: white; text-decoration: none"
+        href="{{ cardData.link }}"
+        target="_blank"
+        >{{ cardData.title }}</a
+      >
+    </h5>
+    <hr />
+    <p class="card-text">
+      {{ cardData.description }}
+    </p>
+  </div>
+</div>

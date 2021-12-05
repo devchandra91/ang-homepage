@@ -1,0 +1,60 @@
+.bg-img {
+    background-image: url(../assets/images/background-img.jpg);
+    background-size: contain;
+    background-color: #8f8f8f8f;
+    background-blend-mode: screen;
+    padding-inline: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 22vh;
+    border-radius: 3vh 3vh 1vh 1vh;
+}
+.input-group {
+    padding-block: 5vh;
+}
+.input-group-text {
+    background-color: #a1ff86 !important;
+}
+.display-4 {
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #037193;
+    font-size: xxx-large;
+    margin-bottom: 7vh;
+}
+.form-element {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    column-gap: 2vw;
+    row-gap: 5vh;
+    align-items: center;
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    row-gap: 5vh;
+}
+
+.sub-heading {
+    text-align: center;
+    color: #037193;
+    font-size: x-large;
+    margin-bottom: 23px;
+}
+
+.footer {
+    margin-inline: 8vw;
+    padding-top: 10vh;
+}
+
+.ft-btn {
+    color: white;
+    background-color: inherit;
+    border: none;
+}
